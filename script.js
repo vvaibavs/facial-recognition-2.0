@@ -23,7 +23,7 @@ function startVideo(){
 }
 
 function getLabeledFaceDescriptions() {
-    const labels = ["tom cruise", "khoale", "brad pitt", "VaibavS"]
+    const labels = ["tom cruise", "khoale", "brad pitt", "VaibavS", "krish"]
     return Promise.all(
         labels.map( async (label) => {
             const descriptions = []
